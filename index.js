@@ -41,3 +41,11 @@ function sortArrayDescending(arr) {
 }
 console.log(sortArrayDescending([5,7,10,8,6,9,11]));
 
+
+//6) Write a function named lowercaseFirstLetter that takes a string and returns the same string with the first letter lowercased.
+
+function lowercaseFirstLetter(str) {
+    return str.charAt(0).toLowerCase() + str.slice(1);
+}
+console.log(lowercaseFirstLetter("TABASSUM"));
+
