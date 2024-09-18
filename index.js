@@ -18,3 +18,9 @@ console.log(isOdd(9));
 console.log(isOdd(10));
 
 
+//3)Write a function named findMin that takes an array of numbers and returns the smallest number in the array.
+
+function findMin(arr) {
+    return Math.min(...arr);
+}
+console.log(findMin([10,15,5,20,25]));
