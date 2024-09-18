@@ -49,3 +49,11 @@ function lowercaseFirstLetter(str) {
 }
 console.log(lowercaseFirstLetter("TABASSUM"));
 
+
+//7)Write a function named countVowels that takes a string and returns the number of vowels (a, e, i, o, u, A, E, I, O, U) in the string. It should filter vowels from the string.
+
+function countVowels(str) {
+    const vowels = 'aeiouAEIOU';
+    return [...str].filter(char => vowels.includes(char)).length;
+}
+console.log(countVowels("Nuzhut Tabassum Binti"));
