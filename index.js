@@ -33,3 +33,11 @@ function filterEvenNumbers(arr) {
 }
 console.log(filterEvenNumbers([10,15,5,20,25,30,40]));
 
+
+//5) Write a function named sortArrayDescending that takes an array of numbers and returns a new array sorted in descending order.
+
+function sortArrayDescending(arr) {
+    return arr.sort((a, b) => b - a);
+}
+console.log(sortArrayDescending([5,7,10,8,6,9,11]));
+
