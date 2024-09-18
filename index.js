@@ -3,8 +3,7 @@
 function calculateDifference(a, b) {
     return a - b;
 }
-const result=calculateDifference(10,4);
-console.log(result);
+console.log(calculateDifference(10,4));
 
 
 //2.Write a function named isOdd that takes one argument and returns true if the number is odd, and false if it is not.
@@ -57,3 +56,12 @@ function countVowels(str) {
     return [...str].filter(char => vowels.includes(char)).length;
 }
 console.log(countVowels("Nuzhut Tabassum Binti"));
+
+
+//8) Write a function named findAverage that takes an array of numbers and returns the average of all elements.
+
+function findAverage(arr) {
+    const sum = arr.reduce((acc, num) => acc + num, 0);
+    return sum / arr.length;
+}
+console.log(findAverage([200,400,600,800,1000]));
