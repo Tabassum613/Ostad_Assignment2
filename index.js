@@ -24,3 +24,12 @@ function findMin(arr) {
     return Math.min(...arr);
 }
 console.log(findMin([10,15,5,20,25]));
+
+
+//4) Write a function named filterEvenNumbers that takes an array of numbers and returns a new array containing only the even numbers.
+
+function filterEvenNumbers(arr) {
+    return arr.filter(num => num % 2 === 0);
+}
+console.log(filterEvenNumbers([10,15,5,20,25,30,40]));
+
